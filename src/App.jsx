@@ -1,9 +1,11 @@
+import UserInput from "./components/UserInput"
+import Result from "./components/Result"
 function App() {
   return (
-    <h1>React Investment Calculator
-
-
-    </h1>
+   <>
+   <UserInput/>
+   <Result/>
+   </>
   )
 }
 
